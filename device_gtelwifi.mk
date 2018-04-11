@@ -195,3 +195,4 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SM-T560
 
 $(call inherit-product-if-exists, vendor/samsung/gtelwifi/gtelwifi-vendor.mk)
+$(call inherit-product, external/ant-wireless/build/ant-wireless.mk)
